@@ -35,7 +35,7 @@ flask_thread.start()
 if os.path.exists(".env"):
     load_dotenv()
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "MTM4MDg5MDc1NDgyNTg1MDkzMA.GRU2dd.uG44Y0lmmiF4ZdECe7k5cxJamIxS3wsWFjlc_k"
 if not TOKEN:
     raise ValueError("TOKEN not found in environment variables")
 
